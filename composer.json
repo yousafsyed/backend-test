@@ -1,0 +1,26 @@
+{
+    "name": "yousafsyed/backend-test",
+    "description": "backend-test",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [{
+        "name": "Yousaf Syed",
+        "email": "mmesunny@gmail.com"
+    }],
+    "require": {
+        "php": "5.5.*",
+        "symfony/console": "~2.7.1",
+        "symfony/yaml": "^2.7.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Service\\Importer\\": "src/Service/Importer",
+            "Service\\Console\\": "src/Service/Console",
+            "Factory\\": "src/Factory"
+        }
+    }
+}
+
