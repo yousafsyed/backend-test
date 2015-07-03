@@ -1,6 +1,5 @@
-<<<<<<< HEAD
+
 vendor/
-=======
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
 ### Symfony template
@@ -42,5 +41,3 @@ vendor/
 # Composer PHAR
 /composer.phar
 
-
->>>>>>> 0c47abd4c513f3d3e39eaebedc42e4c2be12f41e
