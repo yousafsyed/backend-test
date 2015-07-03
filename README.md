@@ -29,3 +29,29 @@ Considerations:
 * * * 
 
 Please email your completed test to me as a git patch (https://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/).
+
+## Installation
+
+````bash
+$ composer install
+````
+
+## Running Tests
+
+````bash
+$ ./vendor/bin/phpspec run
+````
+
+## Usage of Importer
+
+````bash
+$ php ./cli/importer.php import glorf
+$ php ./cli/importer.php import flub
+````
+
+## Comments
+
+I have used the simple factory pattern for video feed providers which implements the interface and exposes the clean and abstracted layer for videoFeed providers which gives the video feed in normalized and stard way so that our program can work with one implementation of different kinds of feeds.
+
+Than our Importer is responsible for using the Factory and import the videos from the feed retrieved from the factory that can than store in database or can be used for any purpose.
+
