@@ -51,7 +51,7 @@ $ php ./cli/importer.php import flub
 
 ## Comments
 
-I have used the simple factory pattern for video feed providers which implements the interface and exposes the clean and abstracted layer for videoFeed providers which gives the video feed in normalized and stard way so that our program can work with one implementation of different kinds of feeds.
+I have used the simple factory pattern for video feed providers which implements the interface and exposes the clean and abstracted layer for videoFeed providers which gives the video feed in normalized and standard way so that our program can work with one implementation of different kinds of feeds.
 
 Than our Importer is responsible for using the Factory and import the videos from the feed retrieved from the factory that can than store in database or can be used for any purpose.
 
